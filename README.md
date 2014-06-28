@@ -4,7 +4,7 @@
 
 *It uses the Yahoo Finance API for stock data, gridster for managing the widgets on a grid, and flot for the price graph.
 
-![](http://i.imgur.com/1slrTAY.png)
+![](http://i.imgur.com/Ve2u782.png)
 
 1) If you would like to run StockApp locally, just clone this repo:
 
