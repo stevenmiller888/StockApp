@@ -8,7 +8,8 @@ var prices = [];
 $(document).ready(function() {
   plot = $.plot("#chart", [getPrice()], {
     series: {
-      shadowSize: 0 // Drawing is faster without shadows
+      shadowSize: 3, // drawing is fast without shadows
+      color: 'black'
     },
     yaxis: {
       min: 0,
@@ -18,7 +19,7 @@ $(document).ready(function() {
       show: false
     },
     grid: {
-      color: '#f39c12'
+      color: '#f4b146'
     }
   });
   time = new Date().toString();
